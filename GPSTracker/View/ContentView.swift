@@ -52,7 +52,7 @@ struct ContentView: View {
                     .font(.largeTitle)
                     .foregroundColor(.white)
                 Text(formattedSpeed(locationManager.speed))
-                    .font(.system(size: 48))
+                    .font(.system(size: 72))
                     .foregroundColor(.white)
             }
             .padding()
@@ -85,7 +85,6 @@ struct ContentView: View {
 
         return "\(roundedSpeed) KM/H"
     }
-
 }
 
 struct ContentView_Previews: PreviewProvider {
